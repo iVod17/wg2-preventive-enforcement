@@ -338,10 +338,7 @@ latex_elements = {
   # TOC suppressed at its default slot; emitted manually at the end of
   # 00 - overview.rst so the overview chapter physically precedes the TOC.
   'tableofcontents': '',
-  'atendofbody':u'''
-  \\listoftables
-  \\listoffigures
- ''',
+  'atendofbody': '',
 
 'classoptions' : ',english,openany,oneside'
 }
